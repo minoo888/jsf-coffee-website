@@ -6,6 +6,6 @@ Static website source migrated from the published Wix Headless site.
 - Connect this GitHub repository to Cloudflare Pages.
 - Framework preset: None
 - Build command: leave empty
-- Build output directory: `/` (repository root)
+- Build output directory: `.` (repository root)
 
 Image references currently use the existing Wix CDN. Keep the Wix media assets available until an asset-localization pass is completed.
