@@ -8,4 +8,7 @@ Static website source migrated from the published Wix Headless site.
 - Build command: leave empty
 - Build output directory: `.` (repository root)
 
-Image references currently use the existing Wix CDN. Keep the Wix media assets available until an asset-localization pass is completed.
+## Local assets
+All website images are stored in `/assets` and served from this repository.
+Image assets were migrated from the Wix-hosted source and optimized as WebP where appropriate.
+The website no longer depends on Wix-hosted image URLs.
